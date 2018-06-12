@@ -1,6 +1,6 @@
 {
     "name": "@devel/ra-data-simple-rest",
-    "version": "2.0.2",
+    "version": "2.0.3-Tatic",
     "description": "Simple REST data provider for react-admin",
     "main": "lib/index.js",
     "files": [
@@ -19,7 +19,7 @@
     "bugs": "https://github.com/marmelab/react-admin/issues",
     "license": "MIT",
     "dependencies": {
-        "@devel/react-admin": "^2.0.2",
+        "@devel/react-admin": "^2.0.3-Tatic",
         "query-string": "~5.1.1"
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "@devel/ra-data-graphql",
-    "version": "2.0.2",
+    "version": "2.0.3-Tatic",
     "description": "A GraphQL data provider for react-admin",
     "main": "./lib/index.js",
     "repository": {

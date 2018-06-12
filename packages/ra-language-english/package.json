@@ -1,6 +1,6 @@
 {
     "name": "@devel/ra-language-english",
-    "version": "2.0.4-a",
+    "version": "2.0.4",
     "description": "English messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "main": "index.js",
     "scripts": {

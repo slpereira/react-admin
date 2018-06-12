@@ -7,7 +7,7 @@ import sanitizeRestProps from './sanitizeRestProps';
 
 /**
  * Convert Date object to String
- * 
+ *
  * @param {Date} v value to convert
  * @returns {String} A standardized date (yyyy-MM-dd), to be passed to an <input type="date" />
  */
@@ -17,7 +17,7 @@ const dateFormatter = v => {
     const yyyy = v.getFullYear().toString();
     const MM = (v.getMonth() + 1).toString();
     const dd = v.getDate().toString();
-    return `${yyyy}-${(pad + MM).slice(-2)}-${(pad + dd).slice(-2)}`;
+    return `${yyyy}-${(pad + MM).slice(-2)}-${(pad + dd).slice(-2)}T00:00:00`;
 };
 
 const sanitizeValue = value => {

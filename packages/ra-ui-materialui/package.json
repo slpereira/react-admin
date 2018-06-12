@@ -1,6 +1,6 @@
 {
-    "name": "ra-ui-materialui",
-    "version": "2.0.2-Tatic",
+    "name": "@devel/ra-ui-materialui",
+    "version": "2.0.2",
     "description": "UI Components for react-admin with MaterialUI",
     "files": [
         "*.md",
@@ -30,6 +30,7 @@
         "react-dom": "~16.3.0"
     },
     "dependencies": {
+        "@devel/ra-core": "^2.0.2",
         "@material-ui/core": "~1.0.0",
         "@material-ui/icons": "~1.0.0",
         "autosuggest-highlight": "^3.1.1",
@@ -37,7 +38,6 @@
         "inflection": "~1.12.0",
         "lodash": "~4.17.5",
         "prop-types": "~15.6.1",
-        "ra-core": "^2.0.2-Tatic",
         "react-autosuggest": "^9.3.2",
         "react-dropzone": "~4.0.1",
         "react-redux": "~5.0.7",

@@ -1,5 +1,5 @@
-import { CoreAdminRouter } from 'ra-core';
-import { Loading } from 'ra-ui-materialui';
+import { CoreAdminRouter } from '@devel/ra-core';
+import { Loading } from '@devel/ra-ui-materialui';
 
 const AdminRouter = CoreAdminRouter;
 

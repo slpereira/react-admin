@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import LightBulbIcon from '@material-ui/icons/LightbulbOutline';
 import HomeIcon from '@material-ui/icons/Home';
 import CodeIcon from '@material-ui/icons/Code';
-import { translate } from 'react-admin';
+import { translate } from '@devel/react-admin';
 
 export default translate(({ style, translate }) => (
     <Card style={style}>

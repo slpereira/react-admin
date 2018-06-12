@@ -3,7 +3,7 @@ import MuiGridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import { withStyles } from '@material-ui/core/styles';
-import { NumberField, EditButton } from 'react-admin';
+import { NumberField, EditButton } from '@devel/react-admin';
 
 const styles = {
     root: {

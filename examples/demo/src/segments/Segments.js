@@ -5,7 +5,7 @@ import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import { translate, ViewTitle } from 'react-admin';
+import { translate, ViewTitle } from '@devel/react-admin';
 
 import LinkToRelatedCustomers from './LinkToRelatedCustomers';
 import segments from './data';

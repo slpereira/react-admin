@@ -7,7 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
 import FilterNoneIcon from '@material-ui/icons/FilterNone';
 import compose from 'recompose/compose';
 import classnames from 'classnames';
-import { translate } from 'ra-core';
+import { translate } from '@devel/ra-core';
 
 import Button from '../button/Button';
 import BulkDeleteAction from './BulkDeleteAction';

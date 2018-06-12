@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { GET_LIST, GET_MANY, Responsive, ViewTitle } from 'react-admin';
+import { GET_LIST, GET_MANY, Responsive, ViewTitle } from '@devel/react-admin';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 

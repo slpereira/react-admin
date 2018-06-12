@@ -16,7 +16,7 @@ import {
     TabbedForm,
     TextField,
     TextInput,
-} from 'react-admin';
+} from '@devel/react-admin';
 import Chip from '@material-ui/core/Chip';
 import Icon from '@material-ui/icons/Collections';
 import RichTextInput from 'ra-input-rich-text';

@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import DollarIcon from '@material-ui/icons/AttachMoney';
-import { translate } from 'react-admin';
+import { translate } from '@devel/react-admin';
 
 const styles = {
     card: { borderLeft: 'solid 4px #31708f', flex: '1', marginRight: '1em' },

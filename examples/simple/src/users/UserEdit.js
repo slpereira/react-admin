@@ -7,7 +7,7 @@ import {
     TabbedForm,
     TextInput,
     required,
-} from 'react-admin';
+} from '@devel/react-admin';
 import UserTitle from './UserTitle';
 
 const UserEdit = ({ permissions, ...props }) => (

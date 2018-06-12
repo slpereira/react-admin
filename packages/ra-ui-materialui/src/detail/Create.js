@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from '@material-ui/core/Card';
 import classnames from 'classnames';
-import { CreateController } from 'ra-core';
+import { CreateController } from '@devel/ra-core';
 
 import Header from '../layout/Header';
 import DefaultActions from './CreateActions';
@@ -96,7 +96,7 @@ CreateView.propTypes = {
 
 /**
  * Page component for the Create view
- * 
+ *
  * The `<Create>` component renders the page title and actions.
  * It is not responsible for rendering the actual form -
  * that's the job of its child component (usually `<SimpleForm>`),
@@ -106,14 +106,14 @@ CreateView.propTypes = {
  *
  * - title
  * - actions
- * 
+ *
  * Both expect an element for value.
- * 
- * @example     
+ *
+ * @example
  *     // in src/posts.js
  *     import React from 'react';
- *     import { Create, SimpleForm, TextInput } from 'react-admin';
- *     
+ *     import { Create, SimpleForm, TextInput } from '@devel/react-admin';
+ *
  *     export const PostCreate = (props) => (
  *         <Create {...props}>
  *             <SimpleForm>
@@ -124,10 +124,10 @@ CreateView.propTypes = {
  *
  *     // in src/App.js
  *     import React from 'react';
- *     import { Admin, Resource } from 'react-admin';
- *     
+ *     import { Admin, Resource } from '@devel/react-admin';
+ *
  *     import { PostCreate } from './posts';
- *     
+ *
  *     const App = () => (
  *         <Admin dataProvider={...}>
  *             <Resource name="posts" create={PostCreate} />

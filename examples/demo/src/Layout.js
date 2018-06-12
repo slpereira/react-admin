@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { Layout } from 'react-admin';
+import { Layout } from '@devel/react-admin';
 
 const darkTheme = {
     palette: {

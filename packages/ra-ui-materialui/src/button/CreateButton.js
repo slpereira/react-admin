@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import ContentAdd from '@material-ui/icons/Add';
 import compose from 'recompose/compose';
 import classnames from 'classnames';
-import { translate } from 'ra-core';
+import { translate } from '@devel/ra-core';
 
 import Responsive from '../layout/Responsive';
 import Link from '../Link';

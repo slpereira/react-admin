@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import Switch from '@material-ui/core/Switch';
-import { addField, FieldTitle } from 'ra-core';
+import { addField, FieldTitle } from '@devel/ra-core';
 
 import sanitizeRestProps from './sanitizeRestProps';
 

@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import ActionDelete from '@material-ui/icons/Delete';
 import classnames from 'classnames';
-import { translate, crudDelete, startUndoable } from 'ra-core';
+import { translate, crudDelete, startUndoable } from '@devel/ra-core';
 
 import Button from './Button';
 

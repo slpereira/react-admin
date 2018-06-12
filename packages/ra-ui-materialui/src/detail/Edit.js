@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import classnames from 'classnames';
-import { EditController } from 'ra-core';
+import { EditController } from '@devel/ra-core';
 
 import Header from '../layout/Header';
 import DefaultActions from './EditActions';
@@ -112,7 +112,7 @@ EditView.propTypes = {
 
 /**
  * Page component for the Edit view
- * 
+ *
  * The `<Edit>` component renders the page title and actions,
  * fetches the record from the data provider.
  * It is not responsible for rendering the actual form -
@@ -123,14 +123,14 @@ EditView.propTypes = {
  *
  * - title
  * - actions
- * 
+ *
  * Both expect an element for value.
- * 
- * @example     
+ *
+ * @example
  *     // in src/posts.js
  *     import React from 'react';
- *     import { Edit, SimpleForm, TextInput } from 'react-admin';
- *     
+ *     import { Edit, SimpleForm, TextInput } from '@devel/react-admin';
+ *
  *     export const PostEdit = (props) => (
  *         <Edit {...props}>
  *             <SimpleForm>
@@ -141,10 +141,10 @@ EditView.propTypes = {
  *
  *     // in src/App.js
  *     import React from 'react';
- *     import { Admin, Resource } from 'react-admin';
- *     
+ *     import { Admin, Resource } from '@devel/react-admin';
+ *
  *     import { PostEdit } from './posts';
- *     
+ *
  *     const App = () => (
  *         <Admin dataProvider={...}>
  *             <Resource name="posts" edit={PostEdit} />

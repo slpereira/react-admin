@@ -7,7 +7,7 @@ import {
     NumberField,
     TextField,
     BooleanField,
-} from 'react-admin';
+} from '@devel/react-admin';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';

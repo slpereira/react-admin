@@ -6,7 +6,7 @@ import {
     CREATE,
     UPDATE,
     DELETE,
-} from 'react-admin';
+} from '@devel/react-admin';
 import getResponseParser from './getResponseParser';
 
 const testListTypes = type => {

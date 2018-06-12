@@ -24,7 +24,7 @@ import {
     SimpleList,
     TextField,
     translate,
-} from 'react-admin'; // eslint-disable-line import/no-unresolved
+} from '@devel/react-admin'; // eslint-disable-line import/no-unresolved
 
 const CommentFilter = props => (
     <Filter {...props}>

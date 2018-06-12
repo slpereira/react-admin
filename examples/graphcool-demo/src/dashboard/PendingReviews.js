@@ -9,7 +9,7 @@ import Avatar from '@material-ui/core/Avatar';
 import { withStyles } from '@material-ui/core/styles';
 import CommentIcon from '@material-ui/icons/Comment';
 import { Link } from 'react-router-dom';
-import { translate } from 'react-admin';
+import { translate } from '@devel/react-admin';
 
 import StarRatingField from '../reviews/StarRatingField';
 

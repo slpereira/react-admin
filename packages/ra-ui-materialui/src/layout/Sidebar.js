@@ -6,7 +6,7 @@ import Drawer from '@material-ui/core/Drawer';
 import { withStyles } from '@material-ui/core/styles';
 import withWidth from '@material-ui/core/withWidth';
 import classnames from 'classnames';
-import { setSidebarVisibility } from 'ra-core';
+import { setSidebarVisibility } from '@devel/ra-core';
 
 import Responsive from './Responsive';
 

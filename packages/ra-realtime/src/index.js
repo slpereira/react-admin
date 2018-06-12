@@ -5,7 +5,7 @@ import {
     CRUD_GET_ONE,
     FETCH_START,
     FETCH_END,
-} from 'react-admin';
+} from '@devel/react-admin';
 import omit from 'lodash/omit';
 
 import buildAction from './buildAction';

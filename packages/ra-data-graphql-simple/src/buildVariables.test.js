@@ -5,7 +5,7 @@ import {
     CREATE,
     UPDATE,
     DELETE,
-} from 'react-admin';
+} from '@devel/react-admin';
 import buildVariables from './buildVariables';
 
 describe('buildVariables', () => {

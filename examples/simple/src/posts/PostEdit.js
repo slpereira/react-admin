@@ -26,7 +26,7 @@ import {
     minValue,
     number,
     required,
-} from 'react-admin'; // eslint-disable-line import/no-unresolved
+} from '@devel/react-admin'; // eslint-disable-line import/no-unresolved
 import PostTitle from './PostTitle';
 
 const PostEdit = props => (

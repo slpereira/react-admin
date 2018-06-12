@@ -2,7 +2,7 @@ import React, { cloneElement, Component } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
-import { linkToRecord } from 'ra-core';
+import { linkToRecord } from '@devel/ra-core';
 
 import Link from '../Link';
 
@@ -22,7 +22,7 @@ const sanitizeRestProps = ({ currentSort, setSort, isLoading, ...props }) =>
  *         <ChipField source="title" />
  *     </SingleFieldList>
  * </ReferenceManyField>
- * 
+ *
  * By default, it includes a link to the <Edit> page of the related record
  * (`/books/:id` in the previous example).
  *

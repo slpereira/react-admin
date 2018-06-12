@@ -8,8 +8,8 @@ import {
     CREATE,
     UPDATE,
     DELETE,
-} from 'react-admin';
-import { QUERY_TYPES } from 'ra-data-graphql';
+} from '@devel/react-admin';
+import { QUERY_TYPES } from '@devel/ra-data-graphql';
 
 import { encodeQuery, encodeMutation } from './graphqlify';
 /**

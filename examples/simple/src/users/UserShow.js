@@ -1,6 +1,6 @@
 /* eslint react/jsx-key: off */
 import React from 'react';
-import { Show, Tab, TabbedShowLayout, TextField } from 'react-admin'; // eslint-disable-line import/no-unresolved
+import { Show, Tab, TabbedShowLayout, TextField } from '@devel/react-admin'; // eslint-disable-line import/no-unresolved
 import UserTitle from './UserTitle';
 
 const UserShow = ({ permissions, ...props }) => (

@@ -1,6 +1,6 @@
 // in src/comments.js
 import React from 'react';
-import { EditButton, translate, NumberField } from 'react-admin';
+import { EditButton, translate, NumberField } from '@devel/react-admin';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';

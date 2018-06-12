@@ -7,7 +7,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import { withStyles } from '@material-ui/core/styles';
 import ContentSave from '@material-ui/icons/Save';
 import classnames from 'classnames';
-import { showNotification, translate } from 'ra-core';
+import { showNotification, translate } from '@devel/ra-core';
 
 const styles = {
     button: {

@@ -19,7 +19,7 @@ import {
     SimpleForm,
     TextField,
     TextInput,
-} from 'react-admin';
+} from '@devel/react-admin';
 import { withStyles } from '@material-ui/core/styles';
 import Icon from '@material-ui/icons/AttachMoney';
 

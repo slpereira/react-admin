@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import compose from 'recompose/compose';
-import { crudDeleteMany, startUndoable, translate } from 'ra-core';
+import { crudDeleteMany, startUndoable, translate } from '@devel/ra-core';
 
 class BulkDeleteAction extends Component {
     componentDidMount = () => {

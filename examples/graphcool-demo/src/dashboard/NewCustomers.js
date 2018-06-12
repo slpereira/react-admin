@@ -9,7 +9,7 @@ import Avatar from '@material-ui/core/Avatar';
 import { withStyles } from '@material-ui/core/styles';
 import CustomerIcon from '@material-ui/icons/PersonAdd';
 import { Link } from 'react-router-dom';
-import { translate } from 'react-admin';
+import { translate } from '@devel/react-admin';
 
 const styles = theme => ({
     card: { borderLeft: 'solid 4px #4caf50', flex: 1, marginLeft: '1em' },

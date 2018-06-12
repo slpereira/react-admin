@@ -9,7 +9,7 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import Checkbox from '@material-ui/core/Checkbox';
 import { withStyles } from '@material-ui/core/styles';
 import compose from 'recompose/compose';
-import { addField, translate, FieldTitle } from 'ra-core';
+import { addField, translate, FieldTitle } from '@devel/ra-core';
 
 import defaultSanitizeRestProps from './sanitizeRestProps';
 const sanitizeRestProps = ({ setFilter, setPagination, setSort, ...rest }) =>

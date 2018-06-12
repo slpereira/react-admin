@@ -1,4 +1,4 @@
-import { FETCH_END } from 'react-admin';
+import { FETCH_END } from '@devel/react-admin';
 
 import buildAction from './buildAction';
 

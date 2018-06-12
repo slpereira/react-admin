@@ -9,7 +9,7 @@ import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import ListItemText from '@material-ui/core/ListItemText';
 import { withStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
-import { linkToRecord } from 'ra-core';
+import { linkToRecord } from '@devel/ra-core';
 
 const styles = {
     link: {

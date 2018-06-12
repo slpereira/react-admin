@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import compose from 'recompose/compose';
-import { addField, translate, ReferenceArrayInputController } from 'ra-core';
+import { addField, translate, ReferenceArrayInputController } from '@devel/ra-core';
 
 import LinearProgress from '../layout/LinearProgress';
 import Labeled from '../input/Labeled';

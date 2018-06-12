@@ -7,7 +7,7 @@ import {
     TextInput,
     Toolbar,
     required,
-} from 'react-admin';
+} from '@devel/react-admin';
 
 const UserCreateToolbar = ({ permissions, ...props }) => (
     <Toolbar {...props}>

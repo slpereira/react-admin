@@ -1,4 +1,4 @@
-import { CoreAdmin } from 'ra-core';
+import { CoreAdmin } from '@devel/ra-core';
 import {
     Layout as DefaultLayout,
     Loading,
@@ -6,7 +6,7 @@ import {
     Logout,
     Menu,
     NotFound,
-} from 'ra-ui-materialui';
+} from '@devel/ra-ui-materialui';
 
 const Admin = CoreAdmin;
 

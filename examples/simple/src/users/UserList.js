@@ -13,7 +13,7 @@ import {
     SimpleList,
     TextField,
     TextInput,
-} from 'react-admin';
+} from '@devel/react-admin';
 export const UserIcon = PeopleIcon;
 
 const UserFilter = ({ permissions, ...props }) => (

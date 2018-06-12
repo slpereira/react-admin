@@ -13,7 +13,7 @@ import {
     SimpleForm,
     TextInput,
     minLength,
-} from 'react-admin'; // eslint-disable-line import/no-unresolved
+} from '@devel/react-admin'; // eslint-disable-line import/no-unresolved
 
 const editStyles = {
     header: {

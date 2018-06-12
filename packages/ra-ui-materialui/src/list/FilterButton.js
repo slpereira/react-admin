@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import ContentFilter from '@material-ui/icons/FilterList';
 import classnames from 'classnames';
 import compose from 'recompose/compose';
-import { translate } from 'ra-core';
+import { translate } from '@devel/ra-core';
 
 import FilterButtonMenuItem from './FilterButtonMenuItem';
 import Button from '../button/Button';

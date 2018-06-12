@@ -1,5 +1,5 @@
 import React from 'react';
-import { Datagrid, List, TextField } from 'react-admin';
+import { Datagrid, List, TextField } from '@devel/react-admin';
 import Icon from '@material-ui/icons/Bookmark';
 
 import LinkToRelatedCustomers from './LinkToRelatedCustomers';

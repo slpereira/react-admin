@@ -5,7 +5,7 @@ import Dropzone from 'react-dropzone';
 import compose from 'recompose/compose';
 import { withStyles } from '@material-ui/core/styles';
 import classnames from 'classnames';
-import { addField, translate } from 'ra-core';
+import { addField, translate } from '@devel/ra-core';
 
 import Labeled from './Labeled';
 import FileInputPreview from './FileInputPreview';

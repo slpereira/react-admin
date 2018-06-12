@@ -7,7 +7,7 @@ import {
     SelectInput,
     SimpleForm,
     required,
-} from 'react-admin'; // eslint-disable-line import/no-unresolved
+} from '@devel/react-admin'; // eslint-disable-line import/no-unresolved
 
 const defaultValue = { created_at: new Date() };
 const CommentCreate = props => (

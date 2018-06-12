@@ -5,7 +5,7 @@ import MuiButton from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import { withStyles } from '@material-ui/core/styles';
 import classnames from 'classnames';
-import { translate } from 'ra-core';
+import { translate } from '@devel/ra-core';
 
 import Responsive from '../layout/Responsive';
 

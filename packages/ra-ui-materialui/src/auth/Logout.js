@@ -7,7 +7,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import { withStyles } from '@material-ui/core/styles';
 import ExitIcon from '@material-ui/icons/PowerSettingsNew';
 import classnames from 'classnames';
-import { translate, userLogout as userLogoutAction } from 'ra-core';
+import { translate, userLogout as userLogoutAction } from '@devel/ra-core';
 
 import Responsive from '../layout/Responsive';
 

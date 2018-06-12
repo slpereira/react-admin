@@ -23,7 +23,7 @@ import {
     TextField,
     TextInput,
     translate,
-} from 'react-admin'; // eslint-disable-line import/no-unresolved
+} from '@devel/react-admin'; // eslint-disable-line import/no-unresolved
 
 import ResetViewsAction from './ResetViewsAction';
 export const PostIcon = BookIcon;

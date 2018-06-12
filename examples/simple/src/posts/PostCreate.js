@@ -11,7 +11,7 @@ import {
     SimpleForm,
     TextInput,
     Toolbar,
-} from 'react-admin'; // eslint-disable-line import/no-unresolved
+} from '@devel/react-admin'; // eslint-disable-line import/no-unresolved
 
 const PostCreateToolbar = props => (
     <Toolbar {...props}>

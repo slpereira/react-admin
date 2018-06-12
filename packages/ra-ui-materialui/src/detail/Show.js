@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from '@material-ui/core/Card';
 import classnames from 'classnames';
-import { ShowController } from 'ra-core';
+import { ShowController } from '@devel/ra-core';
 
 import Header from '../layout/Header';
 import DefaultActions from './ShowActions';
@@ -98,7 +98,7 @@ ShowView.propTypes = {
 
 /**
  * Page component for the Show view
- * 
+ *
  * The `<Show>` component renders the page title and actions,
  * fetches the record from the data provider.
  * It is not responsible for rendering the actual form -
@@ -109,14 +109,14 @@ ShowView.propTypes = {
  *
  * - title
  * - actions
- * 
+ *
  * Both expect an element for value.
- * 
- * @example     
+ *
+ * @example
  *     // in src/posts.js
  *     import React from 'react';
- *     import { Show, SimpleShowLayout, TextField } from 'react-admin';
- *     
+ *     import { Show, SimpleShowLayout, TextField } from '@devel/react-admin';
+ *
  *     export const PostShow = (props) => (
  *         <Show {...props}>
  *             <SimpleShowLayout>
@@ -127,10 +127,10 @@ ShowView.propTypes = {
  *
  *     // in src/App.js
  *     import React from 'react';
- *     import { Admin, Resource } from 'react-admin';
- *     
+ *     import { Admin, Resource } from '@devel/react-admin';
+ *
  *     import { PostShow } from './posts';
- *     
+ *
  *     const App = () => (
  *         <Admin dataProvider={...}>
  *             <Resource name="posts" show={PostShow} />

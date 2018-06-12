@@ -1,6 +1,6 @@
 import React, { cloneElement, Component } from 'react';
 import PropTypes from 'prop-types';
-import { isRequired, FieldTitle } from 'ra-core';
+import { isRequired, FieldTitle } from '@devel/ra-core';
 import { FieldArray } from 'redux-form';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -12,7 +12,7 @@ import sanitizeRestProps from './sanitizeRestProps';
  *
  *  @example
  *
- *      import { ArrayInput, SimpleFormIterator, DateInput, UrlInput } from 'react-admin';
+ *      import { ArrayInput, SimpleFormIterator, DateInput, UrlInput } from '@devel/react-admin';
  *
  *      <ArrayInput source="backlinks">
  *          <SimpleFormIterator>

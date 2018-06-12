@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import Polyglot from 'node-polyglot';
 import { connect } from 'react-redux';
 import { compose, withContext } from 'recompose';
-import defaultMessages from 'ra-language-english';
+import defaultMessages from '@devel/ra-language-english';
 import defaultsDeep from 'lodash/defaultsDeep';
 
 /**
  * Creates a translation context, available to its children
- * 
+ *
  * Must be called withing a Redux app.
- * 
+ *
  * @example
  *     const MyApp = () => (
  *         <Provider store={store}>

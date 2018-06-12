@@ -5,7 +5,7 @@ import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
 import { withStyles } from '@material-ui/core/styles';
 import compose from 'recompose/compose';
-import { addField, translate, FieldTitle } from 'ra-core';
+import { addField, translate, FieldTitle } from '@devel/ra-core';
 
 const sanitizeRestProps = ({
     addLabel,

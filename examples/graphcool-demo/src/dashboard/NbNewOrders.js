@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import { translate } from 'react-admin';
+import { translate } from '@devel/react-admin';
 
 const styles = {
     card: { borderLeft: 'solid 4px #ff9800', flex: 1, marginLeft: '1em' },

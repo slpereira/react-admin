@@ -18,7 +18,7 @@ import {
     TabbedForm,
     TextField,
     TextInput,
-} from 'react-admin';
+} from '@devel/react-admin';
 import withStyles from '@material-ui/core/styles/withStyles';
 import Icon from '@material-ui/icons/Person';
 

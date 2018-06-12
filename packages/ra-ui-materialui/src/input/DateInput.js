@@ -26,7 +26,7 @@ const sanitizeValue = value => {
     if (value == null || value === '') {
         return '';
     }
-    return moment(value).format('yyyy-MM-dd')
+    return moment(value).format('YYYY-MM-DD')
 };
 
 export class DateInput extends Component {

@@ -2,33 +2,31 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TextField from '@material-ui/core/TextField';
 import { addField, FieldTitle } from '@devel/ra-core';
+import moment from 'moment'
 
 import sanitizeRestProps from './sanitizeRestProps';
-
-/**
- * Convert Date object to String
- *
- * @param {Date} v value to convert
- * @returns {String} A standardized date (yyyy-MM-dd), to be passed to an <input type="date" />
- */
-const dateFormatter = v => {
-    if (!(v instanceof Date) || isNaN(v)) return;
-    const pad = '00';
-    const yyyy = v.getFullYear().toString();
-    const MM = (v.getMonth() + 1).toString();
-    const dd = v.getDate().toString();
-    return `${yyyy}-${(pad + MM).slice(-2)}-${(pad + dd).slice(-2)}T00:00:00`;
-};
-
+//
+// /**
+//  * Convert Date object to String
+//  *
+//  * @param {Date} v value to convert
+//  * @returns {String} A standardized date (yyyy-MM-dd), to be passed to an <input type="date" />
+//  */
+// const dateFormatter = v => {
+//     const pad = '00';
+//     const yyyy = v.getFullYear().toString();
+//     const MM = (v.getMonth() + 1).toString();
+//     const dd = v.getDate().toString();
+//     return `${yyyy}-${(pad + MM).slice(-2)}-${(pad + dd).slice(-2)}`;
+// };
+//
 const sanitizeValue = value => {
     // null, undefined and empty string values should not go through dateFormatter
     // otherwise, it returns undefined and will make the input an uncontrolled one.
     if (value == null || value === '') {
         return '';
     }
-
-    const finalValue = typeof value instanceof Date ? value : new Date(value);
-    return dateFormatter(finalValue);
+    return moment(value).format('yyyy-MM-dd')
 };
 
 export class DateInput extends Component {

@@ -1,6 +1,6 @@
 {
     "name": "@devel/ra-ui-materialui",
-    "version": "2.0.4",
+    "version": "2.0.4-a",
     "description": "UI Components for react-admin with MaterialUI",
     "files": [
         "*.md",
@@ -30,7 +30,7 @@
         "react-dom": "~16.3.0"
     },
     "dependencies": {
-        "@devel/ra-core": "^2.0.4",
+        "@devel/ra-core": "^2.0.4-a",
         "@material-ui/core": "~1.0.0",
         "@material-ui/icons": "~1.0.0",
         "autosuggest-highlight": "^3.1.1",

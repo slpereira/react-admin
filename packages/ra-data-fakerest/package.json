@@ -1,6 +1,6 @@
 {
     "name": "@devel/ra-data-fakerest",
-    "version": "2.0.4",
+    "version": "2.0.4-a",
     "description": "JSON Server data provider for react-admin",
     "main": "lib/index.js",
     "scripts": {
